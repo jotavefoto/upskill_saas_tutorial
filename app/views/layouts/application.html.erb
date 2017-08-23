@@ -22,14 +22,14 @@
             <!--Links-->
               <!--<a href="/" class="navbar-brand">--> <!--HTML-->
               <!--<i class="fa fa-group"></i> DevMatch</a>--> <!--HTML-->
-              <%= link_to "/", class: "navbar-brand" do %> <!--RoR-->
+              <%= link_to root_path, class: "navbar-brand" do %> <!--RoR-->
               <i class="fa fa-group"></i> <!--RoR!-->
               DevMatch <!--RoR-->
               <% end %> <!--RoR-->
       </div>
       <div class="collapse navbar-collapse" id="main-nav-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to "About", "/about" %></li>   <!--RAILS WAY-->
+            <li><%= link_to "About", about_path %></li>   <!--RAILS WAY-->
             <li><a href="/reg">Reg</a></li>   <!--HTML WAY-->
           </ul>
         </div>  <!-- /.navbar-collapse -->
