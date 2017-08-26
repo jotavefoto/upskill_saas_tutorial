@@ -48,7 +48,14 @@
         }
 }
 
-.navbar-default .navbar-toggle .icon-bar {
+// -- Test
+.nav .navbar-nav .navbar-right { //about, reg border
+    border: 4px solid white;
+    }
+     
+// -- endTest
+
+.navbar-default .navbar-toggle .icon-bar { 
     background-color: white;
    }
 
