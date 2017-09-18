@@ -50,3 +50,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 ruby '2.3.0'
 gem 'font-awesome-sass', '~> 4.7.0'
+gem 'hirb', '0.7.3' # hace que el SQL se lea table formatted

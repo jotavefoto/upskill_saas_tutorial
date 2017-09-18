@@ -12,7 +12,7 @@ class ContactsController < ApplicationController
         end
     end
     
-    private
+    private #solo utilizado dentro de este scope
         def contact_params
             params.require(:contact).permit(:name, :email, :comments)
         end
