@@ -35,6 +35,11 @@
         </div>  <!-- /.navbar-collapse -->
       </div>
     </nav>
-      <%= yield %>
+     <%= yield %>
+          <div class="container"> 
+          <% flash.each do |type, msg| %> <!--|key, value|-->
+            <%= content_tag :div, msg, class: "alert alert-#{type}" %> <!--|string interpolation|-->
+          <% end %>
+         </div>
   </body>
 </html>
