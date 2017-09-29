@@ -14,4 +14,4 @@ ActionMailer::Base.smtp_settings = {
     
 }
 
-ActionMailer::BNase.delivery_method = :smtp
+ActionMailer::Base.delivery_method = :smtp
